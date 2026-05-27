@@ -181,7 +181,7 @@ const eraAccordions = [
       'AI智能体的出现，正在将数据资产推向一个全新的高度。智能体不仅是数据的消费者，更是数据的生产者和价值放大器。',
       '据工信部规划，到2026年，AI智能体在重点行业的普及率目标将达到<strong>70%</strong>。'
     ],
-    image: '/smart-agent-visual.png'
+    image: '/smart-agent-visual.webp'
   }
 ]
 
@@ -460,21 +460,21 @@ const dualAccordions = [
 const instructors = [
   {
     name: '陈双律师',
-    image: '/instructor-chenshuang.png',
+    image: '/instructor-chenshuang.webp',
     role: '北京瀛和（广州）权益合伙人 · 数据要素研究领军者',
     bullets: ['深度参与国家级数据立法与标准制定', '为央国企提供数据合规实战解析', '数据权属确认与合规审查领域权威专家', '国家级数据政策咨询核心智囊'],
     tags: ['数据立法', '合规审查', '央国企服务']
   },
   {
     name: '马欢老师',
-    image: '/instructor-mahuan.png',
+    image: '/instructor-mahuan.webp',
     role: 'DAMA中国主席 · CDMP大师',
     bullets: ['DAMA中国主席，数据管理国际权威认证大师', '为你厘清从数据管理到数据资产的底层逻辑', '打通数据治理与资产化的必经之路', '国际数据管理最佳实践引入中国的推动者'],
     tags: ['数据管理', 'CDMP', 'DAMA中国']
   },
   {
     name: '彭国超教授',
-    image: '/instructor-pengguochao.png',
+    image: '/instructor-pengguochao.webp',
     role: '中山大学信息管理学院教授 · 博导',
     bullets: ['数据资产管理与交易领域的权威学者', '曾为广发证券、南航、广汽等世界500强提供战略咨询', '「数据三确权」理论创立者：法律确权、管理确权、技术确权', '数据跨境传输合规与全球框架对标研究先锋'],
     tags: ['学术研究', '世界500强', '数据确权']
@@ -546,11 +546,11 @@ const transformPhases = [
 ]
 
 const coreCourses = [
-  { num: 1, name: '数据应用分析', img: '/data-gold-metaphor.png', output: '看懂数据价值的底层逻辑' },
-  { num: 2, name: '数据金融化', img: '/finance-blueprint.png', output: '从估值到资本的完整路径' },
-  { num: 3, name: '资源拓展技术', img: '/data-exchange-map.png', output: '成为生态的连接器' },
-  { num: 4, name: '超级话术', img: '/smart-agent-visual.png', output: '让专业被听懂的力量' },
-  { num: 5, name: '个人品牌打造', img: '/cta-action.png', output: '从无名到有影响力' }
+  { num: 1, name: '数据应用分析', img: '/data-gold-metaphor.webp', output: '看懂数据价值的底层逻辑' },
+  { num: 2, name: '数据金融化', img: '/finance-blueprint.webp', output: '从估值到资本的完整路径' },
+  { num: 3, name: '资源拓展技术', img: '/data-exchange-map.webp', output: '成为生态的连接器' },
+  { num: 4, name: '超级话术', img: '/smart-agent-visual.webp', output: '让专业被听懂的力量' },
+  { num: 5, name: '个人品牌打造', img: '/cta-action.webp', output: '从无名到有影响力' }
 ]
 
 const transformAccordions = [
@@ -745,7 +745,7 @@ onBeforeUnmount(() => {
 
   <main>
     <section id="hero" class="hero-section">
-      <img class="hero-bg" src="/hero-bg.png" alt="" />
+      <img class="hero-bg" src="/hero-bg.webp" alt="" />
       <div class="hero-overlay"></div>
       <span
         v-for="particle in particles"
@@ -782,7 +782,7 @@ onBeforeUnmount(() => {
         <h2 class="reveal-on-scroll">当数据成为<span>"新黄金"</span></h2>
         <div class="section-rule reveal-on-scroll"></div>
         <div class="image-band reveal-on-scroll">
-          <img src="/data-gold-metaphor.png" alt="数字黄金概念" loading="lazy" />
+          <img src="/data-gold-metaphor.webp" alt="数字黄金概念" loading="lazy" />
         </div>
         <p class="lead centered reveal-on-scroll">
           <span
@@ -872,7 +872,7 @@ onBeforeUnmount(() => {
     </section>
 
     <section id="policy" class="content-section section-alt policy-section">
-      <img class="policy-bg" src="/policy-timeline-bg.png" alt="" loading="lazy" />
+      <img class="policy-bg" src="/policy-timeline-bg.webp" alt="" loading="lazy" />
       <div class="container">
         <p class="chapter-label reveal-on-scroll">04 / 政策东风</p>
         <h2 class="reveal-on-scroll">政策东风：国家战略下的历史性机遇</h2>
@@ -889,7 +889,7 @@ onBeforeUnmount(() => {
         <h3 class="subheading reveal-on-scroll">中国主要数据交易所一览</h3>
         <DataTable :table="exchangeTable" />
         <div class="image-band narrow reveal-on-scroll">
-          <img src="/data-exchange-map.png" alt="数据交易所分布" loading="lazy" />
+          <img src="/data-exchange-map.webp" alt="数据交易所分布" loading="lazy" />
         </div>
         <div class="accordion-list reveal-on-scroll">
           <details v-for="item in policyAccordions" :key="item.title" class="accordion">
@@ -914,7 +914,7 @@ onBeforeUnmount(() => {
           </article>
         </div>
         <div class="two-column reveal-on-scroll">
-          <img class="rounded-image" src="/career-five-dimensions.png" alt="五维能力图谱" loading="lazy" />
+          <img class="rounded-image" src="/career-five-dimensions.webp" alt="五维能力图谱" loading="lazy" />
           <div>
             <h3 class="subheading">五维能力图谱</h3>
             <article v-for="ability in careerAbilities" :key="ability.name" class="ability-row">
@@ -954,7 +954,7 @@ onBeforeUnmount(() => {
               有数的定位是<strong>数据资产全链路服务商</strong>，培训只是生态的一环，真正的内核是帮助企业完成从数据资源盘点、场景建模、价值评估、合规确权到金融化变现的完整闭环。
             </p>
           </div>
-          <img class="rounded-image" src="/youshu-office.png" alt="有数科技办公环境" loading="lazy" />
+          <img class="rounded-image" src="/youshu-office.webp" alt="有数科技办公环境" loading="lazy" />
         </div>
         <h3 class="subheading reveal-on-scroll">三大核心壁垒</h3>
         <div class="card-grid three">
@@ -988,7 +988,7 @@ onBeforeUnmount(() => {
       <div class="container centered-block">
         <p class="chapter-label reveal-on-scroll">07 / 数据资产盒子</p>
         <h2 class="reveal-on-scroll">数据资产盒子：从咨询到金融化的完整工具链</h2>
-        <img class="toolbox-image reveal-on-scroll" src="/data-asset-box.png" alt="数据资产盒子" loading="lazy" />
+        <img class="toolbox-image reveal-on-scroll" src="/data-asset-box.webp" alt="数据资产盒子" loading="lazy" />
         <div class="quote-block reveal-on-scroll">
           <div></div>
           <p class="gold-quote">盒子装进去的是企业沉睡的数据，<br />拿出来的是真金白银的资本</p>
@@ -1168,7 +1168,7 @@ onBeforeUnmount(() => {
         <h2 class="reveal-on-scroll">金融化蓝图：数据资产的资本化路径</h2>
         <p class="finance-quote reveal-on-scroll">"数据金融化的本质，是让沉默的数据开口说话，说的还是全球通用的资本语言。"</p>
         <div class="image-band narrow reveal-on-scroll">
-          <img src="/finance-blueprint.png" alt="金融化蓝图" loading="lazy" />
+          <img src="/finance-blueprint.webp" alt="金融化蓝图" loading="lazy" />
         </div>
         <div class="rocket-stack">
           <article v-for="(rocket, index) in financeRockets" :key="rocket[0]" :class="['reveal-on-scroll', `rocket-${index + 1}`]">
@@ -1226,7 +1226,7 @@ onBeforeUnmount(() => {
     </section>
 
     <section id="action" class="action-section">
-      <img src="/cta-action.png" alt="" loading="lazy" />
+      <img src="/cta-action.webp" alt="" loading="lazy" />
       <div class="action-overlay"></div>
       <div class="container action-content">
         <p class="chapter-label reveal-on-scroll">12 / 立即行动</p>
