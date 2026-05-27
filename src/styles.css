@@ -2349,13 +2349,15 @@ details.accordion[open] {
 
   .timeline article,
   .timeline article.reverse {
-    grid-template-columns: 1fr;
-    padding-left: 32px;
+    display: block;
+    padding-left: 34px;
+    flex-direction: initial;
   }
 
   .timeline article:not(.reverse) > div,
   .timeline article.reverse > div {
-    grid-column: 1;
+    width: 100%;
+    padding: 0;
   }
 
   .timeline .dot {
